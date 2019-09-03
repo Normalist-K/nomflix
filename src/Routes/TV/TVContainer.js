@@ -1,6 +1,6 @@
-import React from 'react';
-import TVPresenter from './TVPresenter';
-import { tvApi } from 'api';
+import React from "react";
+import TVPresenter from "./TVPresenter";
+import { tvApi } from "api";
 
 export default class extends React.Component {
   state = {
@@ -37,7 +37,6 @@ export default class extends React.Component {
 
   render() {
     const { airingToday, popular, topRated, error, loading } = this.state;
-    console.log(this.state);
     return (
       <TVPresenter
         airingToday={airingToday}
