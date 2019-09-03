@@ -23,7 +23,7 @@
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
-  "homepage": "https://normalist-k.github.io/nomflix/",
+  "homepage": "https://upbeat-minsky-e35126.netlify.com",
   "eslintConfig": {
     "extends": "react-app"
   },
